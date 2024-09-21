@@ -24,25 +24,26 @@
 
 
 // convert number to string 
+
                 // way 1
 age= String(age);
 console.log(typeof age)
 
-                // way 2
+                // way 2  TRICK
 // if you want to convet your data type from number to string then simply add the string with it !
-// age = 22 + "";
-// console.log(typeof age);
+age = 22 + "";
+console.log(typeof age);
 
 
 
 
 // convert string to number 
+
                 // way 1
 myname= Number(myname);
 console.log(typeof myname)
 
-
-                // way 2
+                // way 2TRICK
 // from string to number you have to add simply + before the string . 
-// myname= +"myname";
-// console.log(typeof myname)
+myname= +"myname";
+console.log(typeof myname)
