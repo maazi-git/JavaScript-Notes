@@ -3,6 +3,7 @@
 // Arrays are the ordered collection of elements or items.
 // array is used to store more than one elements in square brackets, which is not possible with var or let.
 // we can access any particular elements in the array, with the help of its index number.
+// Arrays are mutable, so the array methods can change the original array.
 // we can store all data types in an array.
 let datatypes = [0, "string", null, undefined, false];
 console.log(datatypes)
