@@ -33,7 +33,7 @@ console.log(`your current value is ${num}`)
 
                     // while loop example!
 
-    // // formula of nutural numbers 
+    // // formula of NATURAL  Numbers 
     // let num= 100;
     // // (num*(num+1))/2;
     // total = (num*(num+1))/2;

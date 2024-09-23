@@ -34,3 +34,9 @@ let num= 10;
 num= num%2===0 ? "even" : "odd";
 console.log(num)
 
+// CAR TELLER WITH TERNARY OPERATOR 
+
+let mycar= prompt("Tell me about your car barnd!");
+mycar= mycar=="BMW"  ? "This is your BMW~" : "Stay away from the car!";
+console.log(mycar);
+

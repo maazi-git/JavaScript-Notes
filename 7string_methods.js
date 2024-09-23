@@ -4,8 +4,9 @@
 
 let firstname= "     maazi     ";
 console.log(firstname.length);
-firstname= firstname.trim();  // "maazi"
+firstname= firstname.trim(),  // "maazi"
 console.log(firstname.length);
+console.log(firstname)
 
 
 // ToUppercase
@@ -23,6 +24,6 @@ console.log(thirdname)
 // Slice
 
 let fourthname = "haider";
-let newstring = fourthname.slice(1,5)
+let newstring = fourthname.slice(1,3)
 console.log(newstring)
 

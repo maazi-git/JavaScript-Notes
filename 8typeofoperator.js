@@ -3,7 +3,7 @@
 
 
 // NOTE: We have data types in javascript for example  PRIMITIVE Data Types
-//  string "maazi" or 
+//  string "maazi" or "hello-world" 
 //  numbers like 2 ,5.8  etc 
 //  Booleans 
 //  undefined
@@ -33,8 +33,6 @@ console.log(typeof age)
 // if you want to convet your data type from number to string then simply add the string with it !
 age = 22 + "";
 console.log(typeof age);
-
-
 
 
 // convert string to number 

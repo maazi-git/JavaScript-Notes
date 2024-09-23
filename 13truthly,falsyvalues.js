@@ -1,6 +1,8 @@
 // Truthly and falsy values
 
-// falsy values
+                // if else first then this topic 
+
+// falsy values are
 // 0 
 // ""
 // null

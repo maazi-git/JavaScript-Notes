@@ -32,3 +32,14 @@ if (lastname[0] === "H" || myage>=18){
     console.log("u cannot do it")
 }
 
+
+// car chooser with ANd OR 
+
+let chooseCar = prompt("Choose your fav car!");
+let driverHealth = prompt("Is your health is normal or not!");
+let driver= +prompt("Write your Age lease!");
+if(driver>=25 && driverHealth=="Normal"){
+    console.log(`you can drive ${chooseCar}.`)
+}else{
+    console.log("This car is not compatible for you.")
+}

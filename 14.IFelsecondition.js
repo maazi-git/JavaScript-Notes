@@ -22,4 +22,12 @@ if(num%2===0){
     console.log("odd")
 }
 
+            // car program 
+let mycar= "mercedes";
+if(mycar==="mercedes"){
+    console.log("This is your mercedes!")
+}else{
+    console.log("This is not your car!")
+}
+
 

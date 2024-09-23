@@ -46,23 +46,45 @@
 
 
             // Day Teller program 
-let day = +prompt("day number please!");
+// let day = +prompt("day number please!");
 
-if(day === 0){
-    console.log("Sunday");
-}else if(day === 1){
-    console.log("Monday")
-}else if(day === 2){
-    console.log("Tuesday")
-}else if(day === 3){
-    console.log("Wednesday")
-}else if(day === 4){
-    console.log("Thursday")
-}
-else if(day === 5){
-    console.log("Friday")
-}else if(day === 6){
-    console.log("Saturday")
+// if(day === 0){
+//     console.log("Sunday");
+// }else if(day === 1){
+//     console.log("Monday")
+// }else if(day === 2){
+//     console.log("Tuesday")
+// }else if(day === 3){
+//     console.log("Wednesday")
+// }else if(day === 4){
+//     console.log("Thursday")
+// }
+// else if(day === 5){
+//     console.log("Friday")
+// }else if(day === 6){
+//     console.log("Saturday")
+// }else{
+//     console.log("invalid day")
+// }
+
+
+
+
+let CarCategory= prompt("Choose the car category.");
+let yourage= +prompt("Write your age");
+
+if(CarCategory=="jdm" && yourage>=20){
+    console.log(`you can drive ${CarCategory}, but be carefull!`)
+}else if(CarCategory=="Classic" && yourage>=20){
+    console.log(`you can drive ${CarCategory}, amazing category!`)
+}else if(CarCategory=="Hyper" && yourage>=28){
+    console.log(`Be carfull Sir, it will blow your mind.`)
+}else if(CarCategory=="SUV" && yourage>=22){
+    console.log(`${CarCategory}, the luxurious and comfort, all in one!`)
+}else if(CarCategory=="Sports" && yourage>=25){
+    console.log(`you can drive ${CarCategory}, but drive slow!`)
+}else if(CarCategory=="Sedan" && yourage>=18){
+    console.log(`${CarCategory} is the best family car, drive it with your family in long routes!`)
 }else{
-    console.log("invalid day")
+    console.log("Sorry Sir, your choice is not available, we have amazing cars here, you can choose from them!")
 }

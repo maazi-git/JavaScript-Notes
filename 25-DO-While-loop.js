@@ -7,3 +7,4 @@ do{
     i++;
 }while(i<=9)
     console.log("The value of i is ", i)
+

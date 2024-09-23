@@ -18,3 +18,18 @@ if(userGuess === winningNumber){
         console.log("too high!")
     }
 }
+
+
+
+let CarCategory= "classic";
+let yourage= "30";
+
+if(CarCategory=="jdm" && yourage>=22){
+    console.log(`you can drive ${CarCategory}.`)
+}else{
+    if(CarCategory= "classic" && yourage>=22){
+        console.log("you can drive the classic")
+    }else{
+        console.log("This car is not available.")
+    }
+}

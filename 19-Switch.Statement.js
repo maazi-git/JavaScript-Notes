@@ -30,3 +30,21 @@ switch(day){
     default:
         console.log("invalid day")
 }
+
+car= "mercedes"
+switch(car){
+    case "BMW":
+        console.log("Your car is insane");
+        break;
+    case "mercedes":
+        console.log("I love your car");
+        break;
+    case "lamborghini":
+        console.log("flames longer than car");
+        break;
+    case "ferrari":
+        console.log("Love her roar sound");
+        break;
+    default:
+        console.log("I dont like your car.")
+}
