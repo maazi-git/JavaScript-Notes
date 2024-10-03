@@ -3,6 +3,6 @@
 const fruits = ["apple", "bannana", "grapes"];
 
 for(let fruit in fruits){
-    // console.log(fruit)  this prints index
-    console.log(fruits[fruit]);
+    console.log(fruit)  //this prints index
+    // console.log(fruits[fruit]);
 }
