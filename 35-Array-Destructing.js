@@ -6,7 +6,7 @@ const myarray = ["value1", "value2", "value3", "value4"];
 // let var2 = myarray[1];
 // console.log(myarray);
 // console.log(var1)
-// console.log(var2) This is ok, but we can destruct  he array.
+// console.log(var2) This is ok, but we can destruct the array.
 
 let [var1, var2] = myarray;
 // let [var1, , var2]= myarray; if we have to skip the index, then we have to put the commas like ,  , 
@@ -17,6 +17,8 @@ console.log(var1);
 console.log(var2);
 console.log(newarray)
 
+
+//                  Array Destructuring
 
 
 const thisarray = ["car1", "car2", "car3", "car4"]
