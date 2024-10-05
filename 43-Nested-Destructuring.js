@@ -1,0 +1,21 @@
+//                  Nested Destructuring
+const Users = [
+    {UserID: 1, Fullname: "Maaz Haider", Gender: "Male"},
+    {UserID: 2, Fullname: "Abdul Shukran", Gender: "Male"},
+    {UserID: 3, Fullname: "Zain Malik", Gender: "Male"}
+]
+
+let [user1, user2, user3] = Users;
+// This will gave you the variables as an object of the users seperately. 
+console.log(user1)
+console.log(user2)
+console.log(user3)
+
+// SourceBuffer, if i have to get the variable from the object in the array, then 
+let [{Fullname:User1name, UserID}, ,{Gender}] = Users;
+// This will give you the Fullname from the first object and the gender from the last object, which is stored as a seperate variable.
+// We can make more than one keys of object as our variable, with just putting a comma , and then the key name
+// I have changed the name of the Fullname of the object which i made a variable from an array, then its name is User1name, i cannot use it as fullname as a variable.
+console.log(User1name);
+console.log(UserID);
+console.log(Gender)

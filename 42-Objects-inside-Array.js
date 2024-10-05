@@ -32,3 +32,7 @@ for (let i=0; i<Users.length; i++){
 for (let n=0; n<Users.length; n++){
     console.log(Users[n].Gender)
 }
+
+for (let z=0; z<Users.length; z++){
+    console.log(Users[z])
+}
