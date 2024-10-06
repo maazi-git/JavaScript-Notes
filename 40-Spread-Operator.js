@@ -37,3 +37,25 @@ console.log(thisarray) // { 0 : "item1" }
 // this is also used in the problem solving 
 let alphabets = {..."abcdefghijklmnopqrstuvwxyz"}
 console.log(alphabets); // this will position the alphabets according to the index numbers.
+
+
+
+
+let friend1 = {
+    name1 : "Zain",
+    age1 : 18
+}
+console.log(friend1)
+let friend2 = {
+    name2 : "Shukran",
+    age2 : 19
+}
+console.log(friend2)
+let friend3 = {
+    name3 : "Ahtisham",
+    age3 : 17
+}
+console.log(friend3);
+
+let myfriends = {...friend1, ...friend2, ...friend3, Note: "These are my best friends!"}
+console.log(myfriends)

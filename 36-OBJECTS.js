@@ -7,7 +7,7 @@
 
 //          how to create objects
 //  We use curly brace for making Objects.
-// key value pair is anyting which we use as a key, like name, adress etc, and the colon : in the last like name:
+// key value pair is anyting which we use as a key, like name, address etc, and the colon : in the last like name:
 //keys are also called properties, keys are written in the form of string in javascript.
 const person = {
     "name":"Maaz",   //we can use string or without string
@@ -38,3 +38,5 @@ person.gender = "male";
 // person["gender"] = "male";  second method
 
 console.log(person)
+
+// NOTE: Second method is very useful, which is very useful, u touch that method in next step, file no: 37~

@@ -15,13 +15,14 @@ let array2 = [...array1];
 array1.push("item3");
 console.log(array1)
 console.log(array2)
-// these are not two arrays, there is only one array, but there pointers are different with same addresses,
+// these are not two arrays, there is only one array, but there pointers are different with same addresses, the changing in one array cannot be changed in another array
 console.log(array1===array2);
 // this is used to check that the both arrays are same or not 
 
 
 
 //                      Array Concatenation.
+// Array Concatenation means combining two or more arrays are in the new array.
 
 let array5 = ["item1", "item2"];
 
@@ -40,3 +41,4 @@ let array6 = [...array5, ...newarray]
 
 console.log(array5)
 console.log(array6)
+

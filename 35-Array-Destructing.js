@@ -27,3 +27,14 @@ let [thisvar, thisvar2, ...thisnewarray] = thisarray
 console.log(thisvar)
 console.log(thisvar2)
 console.log(thisnewarray)
+
+
+console.log("NEW ARRAY IS START FROM HERE")
+
+let car = ["car1", "car2", "car3", "car4", "car5", "car6"];
+let [mercedes, BMW, Audi, ...toyota] = car;
+console.log(mercedes)
+console.log(toyota)
+let jdm = [...toyota, "car7", "car8", "car9"];
+console.log(jdm)
+

@@ -11,3 +11,17 @@ const obj = {
     [key2] : val2
 }
 console.log(obj)
+
+
+
+let value1 = "NAME";
+let value2 =  "HOBBY";
+
+let answer1 = "Maaz";
+let answer2 = "Running";
+
+let object = {
+    [value1] : answer1,
+    [value2] : answer2
+}
+console.log(object)

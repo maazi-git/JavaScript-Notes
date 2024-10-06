@@ -7,7 +7,7 @@ let num2 = num1;        //refered element
 console.log(num1);
 console.log(num2);
 num1++;
-// num2 = num1;         // update needed
+ num2 = num1;         // update needed
 console.log(num1);
 console.log(num2);
 

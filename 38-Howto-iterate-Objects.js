@@ -12,12 +12,12 @@ const person = {
 
 
 //                  first method
-// for(let keys in person){
-// //     console.log(keys);  // for only key names
-// //     console.log(person[keys]);  // for key values
-// //     console.log(`${keys} : ${person[keys]}`)
-        // console.log(keys, " : ", person[keys])
-// }
+for(let keys in person){
+//     console.log(keys);  // for only key names
+//     console.log(person[keys]);  // for key values
+    // console.log(`${keys} : ${person[keys]}`) only string
+    console.log(keys, " : ", person[keys])
+}
 
 
 //                  Second Method
@@ -28,9 +28,32 @@ const person = {
 // const val = Array.isArray(Object.keys(person));
 // console.log(val)
 
-
-//                  Third Method
-
 // for(let keys of Object.keys(person)){
 //     console.log(keys , " : ", person[keys])
 // }
+
+
+
+
+let TOP_G = {
+    Name : "Andrew Tate",
+    Address : "UAE, Dubai",
+    "Car Collection" : ["Buggati Chiron", "Aston Martin", "BMW M5", "Mclaren P5", "Ferrai F18", "Mercedes Maybach"]
+}
+
+console.log(TOP_G)
+
+//                          for in loop
+for (let gs in TOP_G){
+    console.log(gs , ":", TOP_G[gs])
+}  // gs for keynames , TOP_G[gs] for key values
+
+
+
+//                 object.keys method in FOR OF loop
+Object.keys(TOP_G)
+console.log(Object.keys(TOP_G))
+
+for (let keys of Object.keys(TOP_G)){
+    console.log(keys, ":", TOP_G[keys])
+}

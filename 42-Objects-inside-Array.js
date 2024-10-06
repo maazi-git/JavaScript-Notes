@@ -12,27 +12,26 @@ let Users = [
     {UserID : 5, Fullname : "Ahtisham Nasir", Gender : "Male"},
 ]
 
-// console.log(Users);
+console.log(Users);
+
 for(let user of Users){
     console.log(user.Fullname)
+}
+for (let i=0; i<Users.length; i++){
+    console.log(Users[i].Fullname);
 }
 
 for (let users of Users){
     console.log(users.UserID)
 }
-
 for(let user=0; user<Users.length; user++){
     console.log(Users[user].UserID);
 }
 
-for (let i=0; i<Users.length; i++){
-    console.log(Users[i].Fullname);
-}
 
 for (let n=0; n<Users.length; n++){
     console.log(Users[n].Gender)
 }
-
-for (let z=0; z<Users.length; z++){
-    console.log(Users[z])
+for (let z of Users){
+    console.log(z.Gender)
 }

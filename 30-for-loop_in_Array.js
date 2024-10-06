@@ -2,9 +2,7 @@
 
 let fruits = ["apple", "mango", "bannana", "peach"]
 
-// for(let i = 0; i < fruits.length; i++){
-//     console.log(fruits[i])
-// }
+
 for(let i = 0; i< fruits.length; i++){
     console.log(fruits[i])
 }
