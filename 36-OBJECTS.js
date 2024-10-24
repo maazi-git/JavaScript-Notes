@@ -39,4 +39,4 @@ person.gender = "male";
 
 console.log(person)
 
-// NOTE: Second method is very useful, which is very useful, u touch that method in next step, file no: 37~
+// NOTE: Second method is very useful, we touch that method in next step, file no: 37~

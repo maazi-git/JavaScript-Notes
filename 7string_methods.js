@@ -26,4 +26,3 @@ console.log(thirdname)
 let fourthname = "haider";
 let newstring = fourthname.slice(1,3)
 console.log(newstring)
-
