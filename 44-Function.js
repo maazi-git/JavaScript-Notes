@@ -1,4 +1,5 @@
 //                          Functions 
+// This is function deceleartion!
 // In simple words, function does the work for us.
 
 function SingaSong(){
@@ -65,3 +66,50 @@ SumThreeValues(1,2,3);
 SumThreeValues(1,2); // this shows NaN, because we did not pass the argument to the value3, so, value3 is undefined.
 
 
+
+//                  Function examples
+
+                // is even function 
+// input: any 1 number
+// output: true if even and false if odd
+
+// function isEven(number){
+//     if(number %2===0){
+//         console.log("It is true")
+//     }else{console.log("Your number is wrong!")}
+// }
+ 
+// small way 
+function isEven(number){
+    return number %2===0
+}
+
+console.log(isEven(99));
+
+
+// make function which will give us the first character of the word 
+function firstCh(string){
+    return string[0]
+}
+console.log(firstCh("Maazi"))
+
+// Finding a target in an array, and tells the index number of the target, if it is present in an array!
+
+function findTarget(Array, Target){
+    for(let i=0; i<Array.length; i++){
+        if(Array[i] ===Target){
+            return i
+        }
+    }return -1
+}
+console.log(findTarget([1,2,3,4,5,6], 4))
+
+//Again
+function findcar(cars,target){
+    for(let i = 0; i < cars.length; i++){
+        if(cars[i] === target){
+            return cars[i]
+        }
+    }console.log("Cannot find your car!")
+}
+console.log(findcar(["Mercedes","BMW","Audi","Ferrari","Lexus"], "BMW"))
