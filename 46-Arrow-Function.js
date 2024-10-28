@@ -106,3 +106,37 @@ console.log(finderANS)
 //Third in Arrow Function.
                 let equalthis3 = (val1,val2) => val1 === val2;
                 console.log(equalthis3(5,5));
+
+// One 
+                function makemeequal(num1,num2){
+                    return num1 === num2;
+                }
+                let makeans = makemeequal(1,2);
+                console.log(makeans)
+
+// two
+                let makethatwqual = function(num1,num2){
+                    return num1 === num2;
+                }
+                let wqualans = makethatwqual(2,2)
+                console.log(wqualans)
+
+// three
+                let makeequal = (num1,num2) => num1 === num2;
+                console.log(makeequal(3,4))
+
+// finding target in an array
+
+let findme = (array, target) => {
+    for(let i=0; i<array.length; i++){
+        if(array[i] === target){
+            return i
+        }return 0
+    }
+}
+console.log(findme([1,2,3,4,5], 9))
+
+// print first character
+
+let printme = (word) => word[0]
+console.log(printme("malik"))
